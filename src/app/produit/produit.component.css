@@ -1,0 +1,213 @@
+.article h1::after{
+    content: '';
+    background-color: #007bff;
+    display: block;
+    height: 3px;
+    width: 250px;
+    margin: 20px auto 5px;
+ }
+ .article a{
+     list-style: none;
+     color: #000;
+     outline: none;
+     text-decoration: none !important;
+ }
+ .article a:hover{
+     color: yellowgreen;
+     transition: 0.3s;
+ }
+ .article p{
+     font-size: 21px;
+     padding: 10px;
+ }
+ .article span{
+     color: yellowgreen;
+ }
+ .article .card{
+    padding: 5px;
+ }
+ 
+ #cost{
+     margin-left: 250px;
+     margin-top: -55px;
+     font-size: 15px;
+     color: orange;
+ }
+ #name{
+     padding: 10px;
+ }
+ small{
+    padding: 10px;
+ }
+ small a{
+    height: 70px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background: #eee;
+    font-weight: 900;
+    margin-top: 30px;
+    text-decoration: none !important;
+    padding: 5px;
+ }
+
+ /* Fin des nouveaux produits  */
+ .title-box{
+    text-align: center;
+     margin: 100px auto 50px;
+ }
+
+ .title-box h1::after{
+    content: '';
+    background-color: #007bff;
+    display: block;
+    height: 3px;
+    width: 250px;
+    margin: 20px auto 5px;
+ }
+ .profile-box{
+     width: 240px;
+     height: 240px;
+     background: #ddd;
+     border-radius: 4px;
+     margin-bottom: 30px;
+     box-shadow: 0 10px 10px 10px rgba(115,193,255,0.1);
+     padding: 20px;
+     position: relative;
+ }
+ .profile-box img{
+     width: 100px;
+     position: absolute;
+     top: 20px;
+     right: 15px;
+     border-radius: 4px;
+ }
+ .profile-box h4{
+     margin-top: 25px;
+     margin-bottom: 5px;
+     color: #2196f3;
+     font-size: 17px;
+ }
+ small{
+     color: #555;
+ }
+ .social-link{
+     background: #2196f3;
+     text-align: center;
+     border-radius: 3px;
+     margin-top: 60px;
+     max-width: 100%;
+ }
+ .social-link .fa{
+    margin: 5px;
+    color: #fff;
+    cursor: pointer;
+ }
+ .profile-box p{
+     text-align: center;
+     line-height: 24px;
+     color: #555;
+ }
+ .team{
+   margin-left: 115px !important;
+ }
+ .col-md-3{
+    margin:-12px;
+    padding:0px;
+ }
+
+ /* Fin de l'équipe */
+ #services{
+     
+     background-position: center;
+     background-size: cover;
+     color: #efefef !important;
+     background-attachment: fixed;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     margin-top: 50px;
+     max-width: 100%;
+ }
+ #services h1{
+     text-align: center;
+     color: #efefef !important;
+     padding-bottom: 10px;
+ }
+ #services h1::after{
+    content: '';
+    background-color: #007bff;
+    display: block;
+    height: 3px;
+    width: 250px;
+    margin: 20px auto 5px;
+ }
+ .services{
+     margin-top: 40px;
+ }
+ .icon{
+     font-size: 40px;
+     margin: 20px auto;
+     padding: 20px;
+     height: 80px;
+     width: 80px;
+     border: 2px solid #fff;
+     border-radius: 50%;
+ }
+ #services p{
+     font-size: 14px;
+     margin-top: 20px;
+     color: #ccc;
+ }#sideimg{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    z-index: 999;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+#sideimg img{
+    display: flex;
+    height: 400px;
+    right: 10vh;
+}
+#content{
+    height: 400px;
+    width: 590px;
+    position: absolute;
+    left: 5%;
+    top: calc(70% - 200px);
+}
+
+#content h2{
+    font-size: 80px;
+    color: #d40219;
+    font-weight: 500;
+}
+.lorem{
+    display: flex;
+    position: absolute;
+    margin-left: 35vh;
+    color: black;
+    font-size: large;
+    margin-top: 11vh;
+}
+
+.explo{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background: #d40219;
+    border: none;
+    font-weight: 500;
+    margin-top: 15vh;
+    text-decoration: white;
+}
+.explo:hover{
+    background: #007bff;
+    text-decoration: none;
+    color: #e2e2e2;
+    transition: 0.5s;
+}
